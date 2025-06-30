@@ -21,7 +21,7 @@ export default function Navigation() {
   const navItems = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
-    { name: 'Experience', href: '/experience' },
+    // { name: 'Experience', href: '/experience' },
     { name: 'Skills', href: '/skills' },
     { name: 'Projects', href: '/projects' },
     { name: 'Contact', href: '/contact' },
@@ -42,7 +42,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
             <Code2 className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">DevPortfolio</span>
+            <span className="text-xl font-bold text-gray-900"></span>
           </Link>
 
           {/* Desktop Navigation */}

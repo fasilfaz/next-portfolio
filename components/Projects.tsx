@@ -168,15 +168,13 @@ export default function Projects() {
                   <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-3">
                     <a
                       href={project.github}
-                      className="p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/30 transition-all duration-300 transform hover:scale-110"
-                      onClick={(e) => e.preventDefault()}
+                      className="p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/30 transition-all duration-300 transform hover:scale-110"                      
                     >
                       <Github className="h-5 w-5" />
                     </a>
                     <a
                       href={project.demo}
-                      className="p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/30 transition-all duration-300 transform hover:scale-110"
-                      onClick={(e) => e.preventDefault()}
+                      className="p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/30 transition-all duration-300 transform hover:scale-110"                      
                     >
                       <ExternalLink className="h-5 w-5" />
                     </a>
@@ -219,9 +217,8 @@ export default function Projects() {
             Want to see more of my work?
           </p>
           <a
-            href="#"
+            href="https://github.com/your-username" // ❗️ Replace with your GitHub URL
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 hover:-translate-y-1"
-            onClick={(e) => e.preventDefault()}
           >
             <Github className="h-5 w-5" />
             <span>View All on GitHub</span>

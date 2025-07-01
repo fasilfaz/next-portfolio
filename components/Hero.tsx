@@ -1,4 +1,3 @@
-'use client';
 
 import { useEffect, useState } from 'react';
 import { ChevronDown, Github, Linkedin, Mail, Bot, ArrowRight, Terminal, Code, Coffee, Zap } from 'lucide-react';
@@ -140,21 +139,21 @@ export default function Hero() {
             <div className="opacity-0 animate-[fadeInUp_0.8s_ease-out_1s_forwards]">
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/your-username" // ❗️ Replace with your GitHub URL
                   className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   <Github className="h-5 w-5 group-hover:rotate-12 transition-transform duration-300" />
                   <span>GitHub</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://linkedin.com/in/your-username" // ❗️ Replace with your LinkedIn URL
                   className="group inline-flex items-center space-x-2 bg-slate-800 text-white px-6 py-3 rounded-lg hover:bg-slate-900 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   <Linkedin className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
                   <span>LinkedIn</span>
                 </a>
                 <a
-                  href="#"
+                  href="mailto:your-email@example.com" // ❗️ Replace with your email
                   className="group inline-flex items-center space-x-2 border-2 border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-600 hover:text-white transition-all duration-300 font-medium hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   <Mail className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
@@ -174,7 +173,7 @@ export default function Hero() {
             {/* View Work Link */}
             <div className="opacity-0 animate-[fadeInUp_0.8s_ease-out_1.4s_forwards] pt-4">
               <a
-                href="#"
+                href="/projects"
                 className="group inline-flex items-center space-x-2 text-slate-600 hover:text-indigo-600 transition-colors duration-300 font-medium"
               >
                 <span>Explore My Projects</span>

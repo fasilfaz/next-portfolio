@@ -1,6 +1,12 @@
-'use client';
 
+
+import type { Metadata } from 'next';
 import { Calendar, MapPin, Building, Award, TrendingUp } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: 'Experience - Fasil M',
+  description: 'Explore the professional journey of Fasil M, a senior full stack developer with expertise in MERN, AI integration, React Native, and more. View my work history and certifications.',
+};
 
 export default function Experience() {
   const experiences = [

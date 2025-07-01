@@ -4,8 +4,8 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Full Stack Developer Portfolio',
-  description: 'Professional portfolio showcasing full stack development expertise in MERN, MEAN, React Native, Next.js, and AI agent development',
+  title: 'fasil m',
+  description: 'fasil m fasilm freelancer Professional portfolio showcasing full stack development expertise in MERN, MEAN, React Native, Next.js, and AI agent development',
 };
 
 export default function RootLayout({

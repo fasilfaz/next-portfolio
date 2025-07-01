@@ -5,14 +5,17 @@ import About from './about/page';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
 import Contact from '@/components/Contact';
+import ServicesPage from '@/components/Services';
 
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-slate-50 to-blue-50">
       <Hero />
       <About/>
+      <ServicesPage/>
       <Projects/>
       <Skills/>
+      
       <Contact/>
     </div>
   );

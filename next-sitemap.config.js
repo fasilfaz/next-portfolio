@@ -2,6 +2,6 @@
 module.exports = {
   siteUrl: 'https://fasilm.vercel.app',
   generateRobotsTxt: true,
-  generateIndexSitemap: true, // Optional for small portfolios
+  generateIndexSitemap: true, 
   outDir: './out',
 };

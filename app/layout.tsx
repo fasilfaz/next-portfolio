@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Fasil M - Freelance Full Stack, Mobile & AI Developer',
-  description: 'Expert freelance developer Fasil M, specializing in creating high-performance web and mobile applications with MERN/MEAN stacks, Next.js, React Native, and intelligent AI agent solutions.',
+  description: 'Expert freelance developer Fasil M, specializing in creating high-performance web and mobile applications with MERN/MEAN stacks, Next.js, React Native, and intelligent AI agent solutions. fasil m',
   keywords: 'Fasil M, freelancer, full stack developer, MERN stack, MEAN stack, Next.js, React Native, AI agent developer, mobile app developer, web developer, portfolio, fasilm',
   authors: [{ name: 'Fasil M' }],
   creator: 'Fasil M',

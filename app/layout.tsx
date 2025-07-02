@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Fasil M - Freelance Full Stack, Mobile & AI Developer',
     description: 'Expert freelance developer specializing in web, mobile, and AI solutions.',
-    url: 'https://your-domain.com', // ❗️ Replace with your actual domain
+    url: 'https://fasilm.vercel.app/', // ❗️ Replace with your actual domain
     siteName: 'Fasil M Portfolio',
     // image: '/og-image.png', // ❗️ Add a social sharing image to your `public` folder
     type: 'website',

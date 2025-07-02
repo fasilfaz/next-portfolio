@@ -29,7 +29,23 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
+}) {  
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Fasil M',
+    url: 'https://fasilm.vercel.app/', // ❗️ Replace with your actual domain
+    jobTitle: 'Freelance Full Stack, Mobile & AI Developer',
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Freelancer',
+    },
+    sameAs: [
+      'https://www.linkedin.com/in/fasil-m/', 
+      'https://github.com/fasilfaz'
+    ],
+  };
+
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
@@ -37,6 +53,10 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         <Footer />
       </body>
     </html>

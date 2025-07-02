@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -29,6 +30,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <Head>
+        <meta name="google-site-verification" content="xAHZ48IoH60DlZ2O6HroMtJtzWpEeoAP4YE4bn8MddY" />
+      </Head>
       <body className={inter.className}>
         <Navigation />
         <main className="min-h-screen">

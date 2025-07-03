@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 
+export const revalidate = 60;
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://fasilm.vercel.app'; // ❗️ Replace with your actual domain
 

@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react';
 import { User, Award, Clock, Heart, MapPin, Calendar, GraduationCap, Code, Coffee, Rocket, Target, Lightbulb, Users } from 'lucide-react';
+import AboutHero from '@/components/AboutHero';
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -120,6 +121,7 @@ export default function About() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50/40 pt-20" ref={sectionRef}>
+      <AboutHero />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         
         {/* Header Section */}

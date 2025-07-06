@@ -153,7 +153,7 @@ export default function Hero() {
                   <span>LinkedIn</span>
                 </a>
                 <a
-                  href="mailto:your-email@example.com" // ❗️ Replace with your email
+                  href="mailto:fasilm5171@gmail.com" 
                   className="group inline-flex items-center space-x-2 border-2 border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-600 hover:text-white transition-all duration-300 font-medium hover:shadow-lg transform hover:-translate-y-0.5"
                 >
                   <Mail className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />

@@ -16,7 +16,7 @@ const AboutHero = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/fasilfaz', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/fasil-m/', label: 'LinkedIn' },
-    { icon: Mail, href: '#', label: 'Email' },
+    { icon: Mail, href:"mailto:fasilm5171@gmail.com", label: 'Email' },
   ];
 
   const floatingElements = [

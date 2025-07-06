@@ -29,18 +29,18 @@ export default function Contact() {
       icon: Mail,
       title: 'Email',
       value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com'
+      href: "mailto:fasilm5171@gmail.com"
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 7306165171',
+      href: 'tel:+917306165171'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Your City, Country',
+      value: 'Kerala, India',
       href: '#'
     }
   ];
@@ -135,7 +135,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-slate-300"
-                    placeholder="your.email@example.com"
+                    placeholder="fasilm5171@gmail.com"
                   />
                 </div>
               </div>

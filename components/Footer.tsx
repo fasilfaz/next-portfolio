@@ -23,9 +23,9 @@ export default function Footer() {
   ];
 
   const contactInfo = [
-    { icon: Mail, text: 'your.email@example.com', href: 'mailto:your.email@example.com' },
-    { icon: Phone, text: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-    { icon: MapPin, text: 'Your City, Country', href: '#' },
+    { icon: Mail, text: 'fasilm5171@gmail.com', href: "mailto:fasilm5171@gmail.com" },
+    { icon: Phone, text: '+91 7306165171', href: 'tel:+917306165171' },
+    { icon: MapPin, text: 'Kerla, India', href: '#' },
   ];
 
   return (

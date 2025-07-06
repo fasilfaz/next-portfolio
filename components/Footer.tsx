@@ -99,11 +99,11 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-slate-400 flex items-center space-x-1 text-sm">
               <span>Built with</span>
-              <Heart className="h-4 w-4 text-red-400" />
+              {/* <Heart className="h-4 w-4 text-red-400" /> */}
               <span>using Next.js & Tailwind CSS</span>
             </p>
             <p className="text-slate-500 text-sm">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © 2025 Fasil M. All rights reserved.
             </p>
           </div>
         </div>

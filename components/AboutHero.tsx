@@ -11,6 +11,7 @@ import {
   Coffee,
   Zap
 } from 'lucide-react';
+import Link from 'next/link';
 
 const AboutHero = () => {
   const socialLinks = [
@@ -103,7 +104,7 @@ const AboutHero = () => {
                 </h2>
                 <div className="flex items-center gap-2 text-slate-600">
                   <MapPin className="w-4 h-4" />
-                  <span>Your Location</span>
+                  <span>Kerala , India</span>
                 </div>
               </motion.div>
             </div>
@@ -173,7 +174,9 @@ const AboutHero = () => {
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 justify-center"
               >
+                <Link href="/projects" >
                 <span>View My Work</span>
+                </Link>
                 <ArrowDown className="w-4 h-4" />
               </motion.button>
               
@@ -183,7 +186,9 @@ const AboutHero = () => {
                 className="px-8 py-4 bg-white/80 backdrop-blur-sm text-slate-700 font-semibold rounded-xl shadow-lg border border-slate-200/50 hover:shadow-xl transition-all duration-300 flex items-center gap-2 justify-center"
               >
                 <Mail className="w-4 h-4" />
+                <Link href="/contact" >
                 <span>Get In Touch</span>
+                </Link>
               </motion.button>
             </motion.div>
           </motion.div>

@@ -1,6 +1,7 @@
 'use client';
 
 import { User, Award, Clock, Heart, Code, Sparkles, Zap, Target, Lightbulb, Rocket, Brain } from 'lucide-react';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function About() {
@@ -11,7 +12,7 @@ export default function About() {
     { 
       icon: Clock, 
       label: 'Years Experience', 
-      value: '5+',
+      value: '2+',
       color: 'from-blue-500 to-cyan-500',
       bgColor: 'from-blue-50 to-cyan-50',
       description: 'Years of coding excellence'
@@ -19,7 +20,7 @@ export default function About() {
     { 
       icon: Award, 
       label: 'Projects Completed', 
-      value: '50+',
+      value: '30+',
       color: 'from-emerald-500 to-teal-500',
       bgColor: 'from-emerald-50 to-teal-50',
       description: 'Successful deployments'
@@ -27,7 +28,7 @@ export default function About() {
     { 
       icon: User, 
       label: 'Happy Clients', 
-      value: '30+',
+      value: '5+',
       color: 'from-purple-500 to-pink-500',
       bgColor: 'from-purple-50 to-pink-50',
       description: 'Satisfied customers'
@@ -230,13 +231,16 @@ interface Skill {
 
             {/* Call to Action */}
             <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl p-8 text-white text-center shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+             
               <h3 className="text-2xl font-bold mb-4">Ready to Build Something Amazing?</h3>
               <p className="text-blue-100 mb-6">
                 Let's collaborate on your next project and bring your ideas to life with cutting-edge technology.
               </p>
+               <Link href="/contact" >
               <button className="bg-white text-blue-600 px-6 py-3 rounded-xl font-medium hover:bg-gray-100 transition-colors duration-300 hover:shadow-lg transform hover:scale-105">
                 Get In Touch
               </button>
+              </Link>
             </div>
           </div>
         </div>

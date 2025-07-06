@@ -12,12 +12,12 @@ export default function Skills() {
       title: 'Frontend Development',
       description: 'Creating beautiful, responsive user interfaces',
       skills: [
-        { name: 'React', level: 95, experience: '4+ years' },
-        { name: 'Next.js', level: 90, experience: '3+ years' },
-        { name: 'TypeScript', level: 85, experience: '3+ years' },
+        { name: 'React', level: 95, experience: '2+ years' },
+        { name: 'Next.js', level: 90, experience: '1+ years' },
+        { name: 'TypeScript', level: 85, experience: '2+ years' },
         { name: 'Tailwind CSS', level: 90, experience: '2+ years' },
-        { name: 'JavaScript', level: 95, experience: '5+ years' },
-        { name: 'HTML/CSS', level: 95, experience: '5+ years' },
+        { name: 'JavaScript', level: 95, experience: '2+ years' },
+        { name: 'HTML/CSS', level: 95, experience: '2+ years' },
       ]
     },
     backend: {
@@ -25,10 +25,10 @@ export default function Skills() {
       title: 'Backend Development',
       description: 'Building robust server-side applications',
       skills: [
-        { name: 'Node.js', level: 90, experience: '4+ years' },
-        { name: 'Express.js', level: 85, experience: '4+ years' },
+        { name: 'Node.js', level: 90, experience: '2+ years' },
+        { name: 'Express.js', level: 85, experience: '2+ years' },
         { name: 'Python', level: 80, experience: '2+ years' },
-        { name: 'REST APIs', level: 90, experience: '4+ years' },
+        { name: 'REST APIs', level: 90, experience: '2+ years' },
         { name: 'GraphQL', level: 75, experience: '2+ years' },
         { name: 'Microservices', level: 80, experience: '2+ years' },
       ]
@@ -38,12 +38,12 @@ export default function Skills() {
       title: 'Mobile Development',
       description: 'Cross-platform mobile applications',
       skills: [
-        { name: 'React Native', level: 85, experience: '3+ years' },
-        { name: 'Expo', level: 80, experience: '2+ years' },
-        { name: 'Mobile UI/UX', level: 85, experience: '3+ years' },
-        { name: 'App Store Deploy', level: 80, experience: '2+ years' },
-        { name: 'Push Notifications', level: 75, experience: '2+ years' },
-        { name: 'Offline Storage', level: 80, experience: '2+ years' },
+        { name: 'React Native', level: 85, experience: '1+ years' },
+        { name: 'Expo', level: 80, experience: '1+ years' },
+        { name: 'Mobile UI/UX', level: 85, experience: '1+ years' },
+        // { name: 'App Store Deploy', level: 80, experience: '2+ years' },
+        { name: 'Push Notifications', level: 75, experience: '1+ years' },
+        // { name: 'Offline Storage', level: 80, experience: '2+ years' },
       ]
     },
     database: {
@@ -51,11 +51,11 @@ export default function Skills() {
       title: 'Database & Cloud',
       description: 'Data management and cloud infrastructure',
       skills: [
-        { name: 'MongoDB', level: 90, experience: '4+ years' },
-        { name: 'PostgreSQL', level: 85, experience: '3+ years' },
-        { name: 'Firebase', level: 90, experience: '3+ years' },
+        { name: 'MongoDB', level: 90, experience: '2+ years' },
+        { name: 'PostgreSQL', level: 85, experience: '2+ years' },
+        { name: 'Firebase', level: 90, experience: '1+ years' },
         { name: 'Supabase', level: 85, experience: '2+ years' },
-        { name: 'AWS', level: 75, experience: '2+ years' },
+        { name: 'AWS', level: 75, experience: '1+ years' },
         { name: 'Docker', level: 80, experience: '2+ years' },
       ]
     },
@@ -65,11 +65,11 @@ export default function Skills() {
       description: 'Intelligent systems and automation',
       skills: [
         { name: 'AI Agents', level: 85, experience: '1+ years' },
-        { name: 'LangChain', level: 80, experience: '1+ years' },
+        // { name: 'LangChain', level: 80, experience: '1+ years' },
         { name: 'OpenAI API', level: 85, experience: '1+ years' },
-        { name: 'Automation', level: 90, experience: '3+ years' },
+        // { name: 'Automation', level: 90, experience: '3+ years' },
         { name: 'Chatbots', level: 85, experience: '2+ years' },
-        { name: 'ML Integration', level: 75, experience: '1+ years' },
+        // { name: 'ML Integration', level: 75, experience: '1+ years' },
       ]
     },
     design: {
@@ -77,9 +77,9 @@ export default function Skills() {
       title: 'Design & UX',
       description: 'User experience and visual design',
       skills: [
-        { name: 'UI/UX Design', level: 80, experience: '3+ years' },
+        { name: 'UI/UX Design', level: 80, experience: '2+ years' },
         { name: 'Figma', level: 75, experience: '2+ years' },
-        { name: 'Responsive Design', level: 90, experience: '4+ years' },
+        { name: 'Responsive Design', level: 90, experience: '2+ years' },
         { name: 'Accessibility', level: 80, experience: '2+ years' },
         { name: 'Design Systems', level: 75, experience: '2+ years' },
         { name: 'Prototyping', level: 70, experience: '2+ years' },

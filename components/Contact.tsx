@@ -28,7 +28,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'your.email@example.com',
+      value: 'fasilm5171@gmail.com',
       href: "mailto:fasilm5171@gmail.com"
     },
     {
@@ -135,7 +135,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-slate-300"
-                    placeholder="fasilm5171@gmail.com"
+                    placeholder="Your Email"
                   />
                 </div>
               </div>

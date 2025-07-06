@@ -48,7 +48,7 @@ export default function Skills() {
         { name: 'Python', level: 80, trending: true },
         { name: 'REST APIs', level: 90, trending: false },
         { name: 'GraphQL', level: 75, trending: true },
-        { name: 'Microservices', level: 80, trending: true },
+        // { name: 'Microservices', level: 80, trending: true },
       ]
     },
     mobile: {
@@ -63,7 +63,7 @@ export default function Skills() {
         { name: 'Mobile UI/UX', level: 85, trending: false },
         { name: 'App Store Deploy', level: 80, trending: false },
         { name: 'Push Notifications', level: 75, trending: false },
-        { name: 'Offline Storage', level: 80, trending: false },
+        // { name: 'Offline Storage', level: 80, trending: false },
       ]
     },
     database: {
@@ -77,7 +77,7 @@ export default function Skills() {
         { name: 'PostgreSQL', level: 85, trending: false },
         { name: 'Firebase', level: 90, trending: true },
         { name: 'Supabase', level: 85, trending: true },
-        { name: 'AWS', level: 75, trending: true },
+        { name: 'AWS', level: 70, trending: true },
         { name: 'Docker', level: 80, trending: true },
       ]
     },
@@ -89,11 +89,11 @@ export default function Skills() {
       bgColor: 'bg-violet-50',
       skills: [
         { name: 'AI Agents', level: 85, trending: true },
-        { name: 'LangChain', level: 80, trending: true },
+        // { name: 'LangChain', level: 80, trending: true },
         { name: 'OpenAI API', level: 85, trending: true },
         { name: 'Automation', level: 90, trending: true },
         { name: 'Chatbots', level: 85, trending: true },
-        { name: 'ML Integration', level: 75, trending: true },
+        // { name: 'ML Integration', level: 75, trending: true },
       ]
     }
   };
@@ -283,8 +283,8 @@ export default function Skills() {
         }`}>
           {[
             { label: 'Technologies', value: '25+', icon: Code },
-            { label: 'Years Experience', value: '5+', icon: Award },
-            { label: 'Projects Completed', value: '50+', icon: Star },
+            { label: 'Years Experience', value: '2+', icon: Award },
+            { label: 'Projects Completed', value: '30+', icon: Star },
             { label: 'Skill Categories', value: '5', icon: TrendingUp },
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg border border-white/20">

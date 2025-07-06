@@ -49,21 +49,21 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: 'fasilm5171@gmail.com',
+      href: 'mailto:fasilm5171@gmail.com',
       description: 'Send me an email anytime'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+91 7306165171',
+      href: 'tel:+917306165171',
       description: 'Call me during business hours'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Your City, Country',
+      value: 'Kerala, India',
       href: '#',
       description: 'Available for remote work'
     },

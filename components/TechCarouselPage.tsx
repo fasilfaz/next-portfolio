@@ -173,7 +173,7 @@ const TechCarouselPage = () => {
               { number: "35+", label: "Technologies", color: "from-blue-500 to-purple-500" },
               { number: "6", label: "Categories", color: "from-purple-500 to-pink-500" },
               { number: "100%", label: "Modern Stack", color: "from-pink-500 to-red-500" },
-              { number: "5+", label: "Years Experience", color: "from-red-500 to-orange-500" },
+              { number: "2+", label: "Years Experience", color: "from-red-500 to-orange-500" },
             ].map((stat, index) => (
               <div
                 key={index}

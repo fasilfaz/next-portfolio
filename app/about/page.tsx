@@ -11,16 +11,16 @@ export default function About() {
   const sectionRef = useRef(null);
 
   const stats = [
-    { icon: Clock, label: 'Years Experience', value: 5, suffix: '+', key: 'experience' as const },
-    { icon: Award, label: 'Projects Completed', value: 50, suffix: '+', key: 'projects' as const },
-    { icon: User, label: 'Happy Clients', value: 30, suffix: '+', key: 'clients' as const },
+    { icon: Clock, label: 'Years Experience', value: 2, suffix: '+', key: 'experience' as const },
+    { icon: Award, label: 'Projects Completed', value: 30, suffix: '+', key: 'projects' as const },
+    { icon: User, label: 'Happy Clients', value: 5, suffix: '+', key: 'clients' as const },
     { icon: Code, label: 'Lines of Code', value: 100, suffix: 'k+', key: 'lines' as const },
   ];
 
   const personalInfo = [
-    { icon: MapPin, label: 'Location', value: 'Your City, Country' },
-    { icon: Calendar, label: 'Age', value: '28 Years' },
-    { icon: GraduationCap, label: 'Education', value: 'Computer Science Degree' },
+    { icon: MapPin, label: 'Location', value: 'Keral, India' },
+    { icon: Calendar, label: 'Age', value: '24 Years' },
+    // { icon: GraduationCap, label: 'Education', value: 'Computer Science Degree' },
     { icon: Coffee, label: 'Status', value: 'Always Coding' },
   ];
 

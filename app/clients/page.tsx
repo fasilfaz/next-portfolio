@@ -98,7 +98,7 @@ export default function Clients() {
             <div className="text-gray-600 text-sm">Projects Delivered</div>
           </div>
           <div className="text-center bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl font-bold text-teal-600 mb-2">1+</div>
+            <div className="text-3xl font-bold text-teal-600 mb-2">2+</div>
             <div className="text-gray-600 text-sm">Years Experience</div>
           </div>
           <div className="text-center bg-white rounded-2xl p-6 shadow-lg">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Code, Smartphone, Bot, Database, Cloud, Users, ArrowRight, Sparkles } from 'lucide-react';
-
+import { Code, Smartphone, Bot, Database, Cloud, Users, ArrowRight, Sparkles, } from 'lucide-react';
+import Link from 'next/link';
 const ServicesPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -201,17 +201,24 @@ const ServicesPage = () => {
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <button className="group px-10 py-5 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white font-bold rounded-2xl hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-2xl hover:shadow-purple-500/25 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <Link
+                    href="/contact"
+                    >
+
                   <span className="relative flex items-center justify-center">
                     Start Your Project
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                   </span>
+                    </Link>
                 </button>
                 
                 <button className="group px-10 py-5 bg-white/80 text-gray-700 font-bold rounded-2xl border-2 border-gray-200 hover:border-purple-300 hover:bg-white hover:text-purple-600 transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-xl hover:shadow-2xl backdrop-blur-sm">
+                  <Link href="/projects" >
                   <span className="flex items-center justify-center">
-                    View My Work
+                    View My Work 
                     <Sparkles className="ml-2 w-5 h-5 group-hover:animate-spin transition-all duration-300" />
                   </span>
+                  </Link>
                 </button>
               </div>
             </div>

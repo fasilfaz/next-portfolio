@@ -35,9 +35,6 @@ const TechCarouselPage = () => {
       { name: "Angular", icon: <SiAngular className="w-8 h-8 text-red-500" />, color: "#DD0031" },
       { name: "TypeScript", icon: <SiTypescript className="w-8 h-8 text-blue-600" />, color: "#3178C6" },
       { name: "Tailwind CSS", icon: <SiTailwindcss className="w-8 h-8 text-teal-500" />, color: "#06B6D4" },
-    ],
-    // Row 2 - Backend (Right to Left)
-    [
       { name: "Node.js", icon: <FaNodeJs className="w-8 h-8 text-green-500" />, color: "#339933" },
       { name: "Python", icon: <FaPython className="w-8 h-8 text-yellow-500" />, color: "#3776AB" },
       { name: "Java", icon: <FaJava className="w-8 h-8 text-orange-500" />, color: "#ED8B00" },
@@ -45,7 +42,7 @@ const TechCarouselPage = () => {
       { name: "C#", icon: <SiSharp className="w-8 h-8 text-purple-600" />, color: "#239120" },
       { name: "Go", icon: <SiGo className="w-8 h-8 text-blue-500" />, color: "#00ADD8" },
     ],
-    // Row 3 - Database (Left to Right)
+    // Row 2 - Backend (Right to Left)
     [
       { name: "MongoDB", icon: <SiMongodb className="w-8 h-8 text-green-600" />, color: "#47A248" },
       { name: "PostgreSQL", icon: <SiPostgresql className="w-8 h-8 text-blue-600" />, color: "#336791" },
@@ -53,17 +50,15 @@ const TechCarouselPage = () => {
       { name: "Redis", icon: <SiRedis className="w-8 h-8 text-red-500" />, color: "#DC382D" },
       { name: "Firebase", icon: <SiFirebase className="w-8 h-8 text-yellow-500" />, color: "#FFCA28" },
       { name: "Elasticsearch", icon: <SiElasticsearch className="w-8 h-8 text-yellow-600" />, color: "#005571" },
-    ],
-    // Row 4 - Cloud & DevOps (Right to Left)
-    [
-      { name: "AWS", icon: <SiAmazon className="w-8 h-8 text-orange-500" />, color: "#FF9900" },
+       { name: "AWS", icon: <SiAmazon className="w-8 h-8 text-orange-500" />, color: "#FF9900" },
       { name: "Azure", icon: <FaAws className="w-8 h-8 text-blue-500" />, color: "#0078D4" },
       { name: "Docker", icon: <SiDocker className="w-8 h-8 text-blue-600" />, color: "#2496ED" },
       { name: "Kubernetes", icon: <SiKubernetes className="w-8 h-8 text-blue-700" />, color: "#326CE5" },
       { name: "Jenkins", icon: <SiJenkins className="w-8 h-8 text-gray-600" />, color: "#D24939" },
       { name: "Terraform", icon: <SiTerraform className="w-8 h-8 text-purple-600" />, color: "#7B42BC" },
     ],
-    // Row 5 - Mobile (Left to Right)
+    // Row 4 - Cloud & DevOps (Right to Left)
+    
     [
       { name: "React Native", icon: <SiReact className="w-8 h-8 text-blue-500" />, color: "#61DAFB" },
       { name: "Flutter", icon: <SiFlutter className="w-8 h-8 text-blue-400" />, color: "#02569B" },
@@ -71,16 +66,14 @@ const TechCarouselPage = () => {
       { name: "Android", icon: <SiAndroid className="w-8 h-8 text-green-500" />, color: "#3DDC84" },
       { name: "Ionic", icon: <SiIonic className="w-8 h-8 text-blue-500" />, color: "#3880FF" },
       { name: "Xamarin", icon: <TbBrandXamarin className="w-8 h-8 text-blue-600" />, color: "#3498DB" },
-    ],
-    // Row 6 - AI/ML (Right to Left)
-    [
-      { name: "TensorFlow", icon: <SiTensorflow className="w-8 h-8 text-orange-500" />, color: "#FF6F00" },
+       { name: "TensorFlow", icon: <SiTensorflow className="w-8 h-8 text-orange-500" />, color: "#FF6F00" },
       { name: "PyTorch", icon: <SiPytorch className="w-8 h-8 text-red-500" />, color: "#EE4C2C" },
       { name: "OpenAI", icon: <SiOpenai className="w-8 h-8" />, color: "#412991" },
       { name: "Scikit-learn", icon: <SiScikitlearn className="w-8 h-8 text-orange-400" />, color: "#F7931E" },
       { name: "Pandas", icon: <SiPandas className="w-8 h-8 text-blue-600" />, color: "#150458" },
       { name: "NumPy", icon: <SiNumpy className="w-8 h-8 text-blue-500" />, color: "#013243" },
     ],
+  
   ];
 
   const categories = [

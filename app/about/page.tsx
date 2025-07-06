@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { User, Award, Clock, Heart, MapPin, Calendar, GraduationCap, Code, Coffee, Rocket, Target, Lightbulb, Users } from 'lucide-react';
 import AboutHero from '@/components/AboutHero';
+import Clients from '../clients/page';
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -301,6 +302,8 @@ export default function About() {
             </div>
           </div>
         </div>
+
+        <Clients/>
       </div>
 
       <style jsx>{`

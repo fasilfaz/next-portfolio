@@ -9,6 +9,7 @@ import ServicesPage from '@/components/Services';
 import TechCarouselPage from '@/components/TechCarouselPage';
 import AboutHero from '@/components/AboutHero';
 import About from '@/components/About';
+import Clients from './clients/page'
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
       </section>
       <section id="projects" className="bg-gradient-to-br from-slate-50 to-blue-50 py-10">
         <Projects />
+      </section>
+      <section id="projects" className="bg-gradient-to-br from-slate-50 to-blue-50 py-10">
+        <Clients />
       </section>
       <section id="skills" className="bg-gradient-to-br from-slate-50 to-blue-50 py-10">
         <Skills />

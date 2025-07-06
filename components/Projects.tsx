@@ -14,69 +14,66 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'AI-Powered Task Management',
-      description: 'Intelligent task management system with AI agent integration for automated scheduling and priority optimization.',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Node.js', 'AI Agents', 'MongoDB'],
-      category: 'ai',
+      // title: 'AI-Powered Task Management System',
+      image: '/assets/works/cbsSite.png',
+     category: 'web',
       github: '#',
-      demo: '#',
-      featured: true
+      demo: 'https://www.continuityoman.com/',
+      status: 'Completed',
+   
     },
     {
       id: 2,
-      title: 'E-Commerce Mobile App',
-      description: 'Cross-platform mobile application built with React Native, featuring real-time inventory and payment integration.',
-      image: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React Native', 'Firebase', 'Stripe', 'Redux'],
+      // title: 'E-Commerce Mobile Application',
+     image: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800',
       category: 'mobile',
       github: '#',
       demo: '#',
-      featured: true
+      status: 'Completed',
+    
     },
     {
       id: 3,
-      title: 'Real-time Analytics Dashboard',
-      description: 'Comprehensive analytics dashboard with real-time data visualization and automated reporting features.',
+      // title: 'Real-time Analytics Dashboard',
       image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Next.js', 'PostgreSQL', 'Chart.js', 'WebSocket'],
-      category: 'web',
+     category: 'web',
       github: '#',
       demo: '#',
-      featured: false
+      status: 'Completed',
+   
     },
     {
       id: 4,
-      title: 'Customer Service Chatbot',
-      description: 'Intelligent chatbot system using natural language processing for automated customer support.',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Python', 'OpenAI', 'LangChain', 'FastAPI'],
+      // title: 'Intelligent Customer Service Chatbot',
+     image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
       category: 'ai',
       github: '#',
       demo: '#',
-      featured: true
+      status: 'Completed',
+     
     },
     {
       id: 5,
-      title: 'Social Media Platform',
-      description: 'Full-stack social media platform with real-time messaging, content sharing, and user engagement features.',
+      // title: 'Social Media Platform',
+     
       image: 'https://images.pexels.com/photos/3184336/pexels-photo-3184336.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['MERN', 'Socket.io', 'Cloudinary', 'JWT'],
+     
       category: 'web',
       github: '#',
       demo: '#',
-      featured: false
+      status: 'In Progress',
+     
     },
     {
       id: 6,
-      title: 'Inventory Management System',
-      description: 'Enterprise-level inventory management with barcode scanning, automated reordering, and analytics.',
+      // title: 'Enterprise Inventory Management',
+   
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Supabase', 'TypeScript', 'PWA'],
+   
       category: 'web',
       github: '#',
       demo: '#',
-      featured: false
+      status: 'Completed'
     }
   ];
 
@@ -134,77 +131,47 @@ export default function Projects() {
         {/* Projects Grid with Staggered Animation */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
           {filteredProjects.map((project, index) => (
-            <div
+             <div
               key={project.id}
-              className={`group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:rotate-1 ${
-                project.featured ? 'ring-2 ring-blue-500/20' : ''
-              } ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-              style={{
-                animationDelay: `${(index + 1) * 150}ms`,
-                height: 'fit-content',
-                minHeight: '520px'
-              }}
+              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              {/* Featured Badge */}
-              {project.featured && (
-                <div className="relative">
-                  <div className="absolute -top-1 -right-1 z-10">
-                    <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1 rounded-bl-lg rounded-tr-2xl text-xs font-bold flex items-center space-x-1">
-                      <Star className="h-3 w-3" />
-                      <span>Featured</span>
-                    </div>
-                  </div>
-                </div>
-              )}
+              
               
               {/* Image Container */}
-              <div className="relative overflow-hidden h-48">
+             <div className="relative group">
                 <img
                   src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  // alt={project.title}
+                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
-                  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-3">
-                    <a
-                      href={project.github}
-                      className="p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/30 transition-all duration-300 transform hover:scale-110"                      
-                    >
-                      <Github className="h-5 w-5" />
-                    </a>
-                    <a
-                      href={project.demo}
-                      className="p-3 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/30 transition-all duration-300 transform hover:scale-110"                      
-                    >
-                      <ExternalLink className="h-5 w-5" />
-                    </a>
-                  </div>
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                  <a
+                    href={project.github}
+                    className="p-3 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/30 transition-colors"
+                    title="View Code"
+                  >
+                    <Github className="h-5 w-5" />
+                  </a>
+                  <a
+                    href={project.demo}
+                    className="p-3 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/30 transition-colors"
+                    title="Live Demo"
+                  >
+                    <ExternalLink className="h-5 w-5" />
+                  </a>
+                </div>
+                <div className="absolute top-4 right-4">
+                  <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+                    project.status === 'Completed' 
+                      ? 'bg-green-100 text-green-800' 
+                      : 'bg-yellow-100 text-yellow-800'
+                  }`}>
+                    {project.status}
+                  </span>
                 </div>
               </div>
 
-              {/* Content Container */}
-              <div className="p-6 flex flex-col h-full">
-                <div className="flex-grow">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
-                    {project.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed line-clamp-3">
-                    {project.description}
-                  </p>
-                </div>
-                
-                {/* Tags */}
-                <div className="flex flex-wrap gap-2 mt-auto">
-                  {project.tags.map((tag, tagIndex) => (
-                    <span
-                      key={tagIndex}
-                      className="px-3 py-1 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-800 text-sm rounded-full font-medium hover:from-blue-200 hover:to-purple-200 transition-all duration-300 transform hover:scale-105"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </div>
+            
             </div>
           ))}
         </div>

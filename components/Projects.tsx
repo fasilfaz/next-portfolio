@@ -184,7 +184,7 @@ export default function Projects() {
             Want to see more of my work?
           </p>
           <a
-            href="https://github.com/your-username" // ❗️ Replace with your GitHub URL
+            href="https://github.com/fasilfaz" 
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 hover:-translate-y-1"
           >
             <Github className="h-5 w-5" />

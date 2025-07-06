@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, MessageCircle, Clock, CheckCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin,  MessageCircle, Clock, CheckCircle } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -77,9 +77,8 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-gray-900' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-600' },
-    { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-blue-400' },
+    { icon: Github, href: 'https://github.com/fasilfaz', label: 'GitHub', color: 'hover:text-gray-900' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/fasil-m/', label: 'LinkedIn', color: 'hover:text-blue-600' },
   ];
 
   const projectTypes = [

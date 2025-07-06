@@ -139,14 +139,14 @@ export default function Hero() {
             <div className="opacity-0 animate-[fadeInUp_0.8s_ease-out_1s_forwards]">
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-4">
                 <a
-                  href="https://github.com/your-username" // ❗️ Replace with your GitHub URL
+                  href="https://github.com/fasilfaz" 
                   className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   <Github className="h-5 w-5 group-hover:rotate-12 transition-transform duration-300" />
                   <span>GitHub</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/your-username" // ❗️ Replace with your LinkedIn URL
+                  href="https://www.linkedin.com/in/fasil-m/" 
                   className="group inline-flex items-center space-x-2 bg-slate-800 text-white px-6 py-3 rounded-lg hover:bg-slate-900 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   <Linkedin className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />

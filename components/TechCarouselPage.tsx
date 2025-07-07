@@ -22,7 +22,7 @@ import {
   SiTensorflow, SiPytorch, SiOpenai, SiScikitlearn, SiPandas, SiNumpy, 
 } from "react-icons/si";
 import { TbBrandXamarin } from "react-icons/tb";
-import { RiReactjsFill } from "react-icons/ri";
+import { RiReactjsFill,RiSupabaseFill } from "react-icons/ri";
 
 const TechCarouselPage = () => {
   // Organize technologies into rows for the carousel
@@ -38,9 +38,9 @@ const TechCarouselPage = () => {
       { name: "Node.js", icon: <FaNodeJs className="w-8 h-8 text-green-500" />, color: "#339933" },
       { name: "Python", icon: <FaPython className="w-8 h-8 text-yellow-500" />, color: "#3776AB" },
       { name: "Java", icon: <FaJava className="w-8 h-8 text-orange-500" />, color: "#ED8B00" },
-      { name: "PHP", icon: <FaPhp className="w-8 h-8 text-purple-500" />, color: "#777BB4" },
-      { name: "C#", icon: <SiSharp className="w-8 h-8 text-purple-600" />, color: "#239120" },
-      { name: "Go", icon: <SiGo className="w-8 h-8 text-blue-500" />, color: "#00ADD8" },
+      // { name: "PHP", icon: <FaPhp className="w-8 h-8 text-purple-500" />, color: "#777BB4" },
+      // { name: "C#", icon: <SiSharp className="w-8 h-8 text-purple-600" />, color: "#239120" },
+      // { name: "Go", icon: <SiGo className="w-8 h-8 text-blue-500" />, color: "#00ADD8" },
     ],
     // Row 2 - Backend (Right to Left)
     [
@@ -49,30 +49,33 @@ const TechCarouselPage = () => {
       { name: "MySQL", icon: <SiMysql className="w-8 h-8 text-orange-500" />, color: "#4479A1" },
       { name: "Redis", icon: <SiRedis className="w-8 h-8 text-red-500" />, color: "#DC382D" },
       { name: "Firebase", icon: <SiFirebase className="w-8 h-8 text-yellow-500" />, color: "#FFCA28" },
-      { name: "Elasticsearch", icon: <SiElasticsearch className="w-8 h-8 text-yellow-600" />, color: "#005571" },
+      // { name: "Elasticsearch", icon: <SiElasticsearch className="w-8 h-8 text-yellow-600" />, color: "#005571" },
        { name: "AWS", icon: <SiAmazon className="w-8 h-8 text-orange-500" />, color: "#FF9900" },
-      { name: "Azure", icon: <FaAws className="w-8 h-8 text-blue-500" />, color: "#0078D4" },
+      // { name: "Azure", icon: <FaAws className="w-8 h-8 text-blue-500" />, color: "#0078D4" },
       { name: "Docker", icon: <SiDocker className="w-8 h-8 text-blue-600" />, color: "#2496ED" },
-      { name: "Kubernetes", icon: <SiKubernetes className="w-8 h-8 text-blue-700" />, color: "#326CE5" },
-      { name: "Jenkins", icon: <SiJenkins className="w-8 h-8 text-gray-600" />, color: "#D24939" },
-      { name: "Terraform", icon: <SiTerraform className="w-8 h-8 text-purple-600" />, color: "#7B42BC" },
+      // { name: "Kubernetes", icon: <SiKubernetes className="w-8 h-8 text-blue-700" />, color: "#326CE5" },
+      // { name: "Jenkins", icon: <SiJenkins className="w-8 h-8 text-gray-600" />, color: "#D24939" },
+      // { name: "Terraform", icon: <SiTerraform className="w-8 h-8 text-purple-600" />, color: "#7B42BC" },
+      { name: "Supabase", icon: <RiSupabaseFill className="w-8 h-8 text-green-600" />, color: "#3ECF8E" },
+      { name: "OpenAI", icon: <SiOpenai className="w-8 h-8" />, color: "#412991" },
+      { name: "React Native", icon: <SiReact className="w-8 h-8 text-blue-500" />, color: "#61DAFB" },
+
+
     ],
     // Row 4 - Cloud & DevOps (Right to Left)
     
-    [
-      { name: "React Native", icon: <SiReact className="w-8 h-8 text-blue-500" />, color: "#61DAFB" },
-      { name: "Flutter", icon: <SiFlutter className="w-8 h-8 text-blue-400" />, color: "#02569B" },
-      { name: "iOS", icon: <SiApple className="w-8 h-8" />, color: "#000000" },
-      { name: "Android", icon: <SiAndroid className="w-8 h-8 text-green-500" />, color: "#3DDC84" },
-      { name: "Ionic", icon: <SiIonic className="w-8 h-8 text-blue-500" />, color: "#3880FF" },
-      { name: "Xamarin", icon: <TbBrandXamarin className="w-8 h-8 text-blue-600" />, color: "#3498DB" },
-       { name: "TensorFlow", icon: <SiTensorflow className="w-8 h-8 text-orange-500" />, color: "#FF6F00" },
-      { name: "PyTorch", icon: <SiPytorch className="w-8 h-8 text-red-500" />, color: "#EE4C2C" },
-      { name: "OpenAI", icon: <SiOpenai className="w-8 h-8" />, color: "#412991" },
-      { name: "Scikit-learn", icon: <SiScikitlearn className="w-8 h-8 text-orange-400" />, color: "#F7931E" },
-      { name: "Pandas", icon: <SiPandas className="w-8 h-8 text-blue-600" />, color: "#150458" },
-      { name: "NumPy", icon: <SiNumpy className="w-8 h-8 text-blue-500" />, color: "#013243" },
-    ],
+    // [
+      // { name: "Flutter", icon: <SiFlutter className="w-8 h-8 text-blue-400" />, color: "#02569B" },
+      // { name: "iOS", icon: <SiApple className="w-8 h-8" />, color: "#000000" },
+      // { name: "Android", icon: <SiAndroid className="w-8 h-8 text-green-500" />, color: "#3DDC84" },
+      // { name: "Ionic", icon: <SiIonic className="w-8 h-8 text-blue-500" />, color: "#3880FF" },
+      // { name: "Xamarin", icon: <TbBrandXamarin className="w-8 h-8 text-blue-600" />, color: "#3498DB" },
+      //  { name: "TensorFlow", icon: <SiTensorflow className="w-8 h-8 text-orange-500" />, color: "#FF6F00" },
+      // { name: "PyTorch", icon: <SiPytorch className="w-8 h-8 text-red-500" />, color: "#EE4C2C" },
+      // { name: "Scikit-learn", icon: <SiScikitlearn className="w-8 h-8 text-orange-400" />, color: "#F7931E" },
+      // { name: "Pandas", icon: <SiPandas className="w-8 h-8 text-blue-600" />, color: "#150458" },
+      // { name: "NumPy", icon: <SiNumpy className="w-8 h-8 text-blue-500" />, color: "#013243" },
+    // ],
   
   ];
 
@@ -140,7 +143,7 @@ const TechCarouselPage = () => {
                 }}
               >
                 {/* Duplicate the row content for seamless loop */}
-                {[...row, ...row, ...row].map((tech, techIndex) => (
+                {[...row, ...row].map((tech, techIndex) => (
                   <div
                     key={`${rowIndex}-${techIndex}`}
                     className="flex-shrink-0 group"
@@ -200,28 +203,28 @@ const TechCarouselPage = () => {
       <style jsx>{`
         @keyframes scroll-left {
           0% {
-            transform: translateX(100%);
+            transform: translateX(0);
           }
           100% {
-            transform: translateX(-100%);
+            transform: translateX(-50%);
           }
         }
 
         @keyframes scroll-right {
           0% {
-            transform: translateX(-100%);
+            transform: translateX(-50%);
           }
           100% {
-            transform: translateX(100%);
+            transform: translateX(0);
           }
         }
 
         .animate-scroll-left {
-          animation: scroll-left 30s linear infinite;
+          animation: scroll-left 65s linear infinite;
         }
 
         .animate-scroll-right {
-          animation: scroll-right 35s linear infinite;
+          animation: scroll-right 65s linear infinite;
         }
 
         /* Pause animation on hover */

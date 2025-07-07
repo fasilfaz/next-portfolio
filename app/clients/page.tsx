@@ -5,6 +5,7 @@ import cbs from '../../public/assets/clients/cbs.png';
 import pointofline from '../../public/assets/clients/pointofline.jpeg';
 import acute from '../../public/assets/clients/acute.png';
 import acas from '../../public/assets/clients/acas.png';
+import ZahratAlbustan from '../../public/assets/clients/Zahrat albustan Logo-09.png';
 import Image from 'next/image';
 
 export default function Clients() {
@@ -37,6 +38,12 @@ export default function Clients() {
     { 
       name: 'ACAS', 
       image: acas, 
+      bgColor: 'bg-white', 
+      borderColor: 'border-gray-200' 
+    },
+    { 
+      name: 'Zahrat Albustan', 
+      image: ZahratAlbustan, 
       bgColor: 'bg-white', 
       borderColor: 'border-gray-200' 
     },

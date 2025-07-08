@@ -49,8 +49,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-    <link rel="icon" href="/assets/fasil/fasil.jpg"  />
-  </head>
+         <link rel="icon" href="/assets/fasil/fasil.jpg"  />
+      </head>
       <body className={inter.className}>
         <Navigation />
         <main className="min-h-screen">
